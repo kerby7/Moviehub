@@ -5,7 +5,7 @@ import search from "./search.svg";
 
 export const App = () => {
   const API_URL =
-    "http://www.omdbapi.com/?apikey=67f22b37"; // Proxy URL
+    "https://www.omdbapi.com/?apikey=67f22b37"; // Proxy URL
 
   const [searchTerm, setSearchTerm] = useState("");
   const [movies, setMovies] = useState([]);
